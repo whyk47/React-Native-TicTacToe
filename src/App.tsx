@@ -19,7 +19,7 @@ export default function App() {
 
   useEffect(() => {
     reset()
-  }, [singlePlayer, playAsX])
+  }, [singlePlayer, playAsX, isHard])
 
   const reset = () => {
     let c = Array(9).fill(EMPTY)
